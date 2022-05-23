@@ -1,0 +1,47 @@
+{
+  "name": "vue-device-detect",
+  "version": "1.0.0",
+  "packageManager": "pnpm@6.32.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "useragent",
+    "mobile",
+    "phone",
+    "tablet",
+    "detect",
+    "device",
+    "browser",
+    "smart-tv",
+    "smarttv",
+    "version",
+    "model",
+    "console"
+  ],
+  "peerDependencies": {
+    "vue": "^3.2.32"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.20.2",
+    "@antfu/ni": "^0.14.0",
+    "@types/node": "^17.0.23",
+    "@types/ua-parser-js": "^0.7.36",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.13.0",
+    "nanoid": "^3.3.2",
+    "pkgroll": "^1.0.3",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.1",
+    "vitest": "^0.9.3",
+    "vue-tsc": "~0.34.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ua-parser-js": "^1.0.2"
+  }
+}
