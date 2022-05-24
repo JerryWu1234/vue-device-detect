@@ -1,5 +1,4 @@
-function a() {
-  console.log(a)
-}
-
-a()
+import './shim.d'
+export { vueDeviceDetect } from './plugin'
+export { parseUA } from './parse'
+export * from './select'

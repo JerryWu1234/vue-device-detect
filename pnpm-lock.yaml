@@ -16,6 +16,7 @@ importers:
       ua-parser-js: ^1.0.2
       vite: ^2.9.1
       vitest: ^0.9.3
+      vue-device-detect: ^1.0.0
       vue-tsc: ~0.34.6
     dependencies:
       ua-parser-js: 1.0.2

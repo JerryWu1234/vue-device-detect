@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "packageManager": "pnpm@6.32.3",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pkgroll",
+    "dev": "pkgroll --watch"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
   },
   "keywords": [
     "vue",
@@ -42,6 +52,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ua-parser-js": "^1.0.2"
+    "ua-parser-js": "^1.0.2",
+    "vue-device-detect": "^1.0.0"
   }
 }
