@@ -10,6 +10,11 @@
     "build": "pkgroll",
     "dev": "pkgroll --watch"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
   "exports": {
     ".": {
       "require": "./dist/index.js",
