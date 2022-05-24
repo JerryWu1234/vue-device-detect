@@ -1,6 +1,6 @@
 {
   "name": "vue-device-detect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@6.32.3",
   "description": "",
   "main": "./dist/index.js",
